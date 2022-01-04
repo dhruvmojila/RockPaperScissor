@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Dhruv's Game</title>
+  </head>
+  <body>
+    <h1 class="center">Stone Paper Scissor</h1>
+    <div class="container">
+      <img
+        src="img/rock.png"
+        alt=""
+        class="sign"
+        id="rock"
+        onclick="rockFun()"
+      />
+      <img
+        src="img/paper.png"
+        alt=""
+        class="sign"
+        id="paper"
+        onclick="paperFun()"
+      />
+      <img
+        src="img/scissor.png"
+        alt=""
+        class="sign"
+        id="scissor"
+        onclick="scissorFun()"
+      />
+    </div>
+    <h2 class="game-status" id="gameStatus"></h2>
+    <div class="btn-container">
+      <button class="btn" onclick="reset()">Reset</button>
+    </div>
+  </body>
+  <script src="js/script.js"></script>
+</html>
